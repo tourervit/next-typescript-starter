@@ -3,10 +3,10 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-		"allowJs": false,
+    "allowJs": false,
     "baseUrl": "./",
-    "jsx": "react",   
-		"target": "esnext",
+    "jsx": "preserve",
+    "target": "esnext",
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,13 +14,18 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true
-	},
-	"lib": [
-		"dom",
-		"dom.iterable",
-		"esnext"
-	],
+    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
+  },
+  "lib": [
+    "dom",
+    "dom.iterable",
+    "esnext"
+  ],
   "exclude": [
     "node_modules"
   ],
@@ -28,10 +33,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-	],
-	"paths": {
-		"@components/*": [
-			"./components/*"
-		]
-	},
+  ],
+  "paths": {
+    "@components/*": [
+      "./components/*"
+    ]
+  }
 }
