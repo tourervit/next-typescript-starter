@@ -1,0 +1,6 @@
+.link {
+	@apply text-indigo-500;
+	&:hover {
+		@apply text-indigo-800 transition-colors duration-200;
+	}
+}
