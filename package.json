@@ -1,15 +1,15 @@
 {
-  "name": "rnaws-frontend",
+  "name": "next-typescript-tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Next.js Typescript Tailwind starter pack",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["next", "typescript", "tailwind"],
+  "author": "coder4real",
   "license": "ISC",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
