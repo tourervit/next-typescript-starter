@@ -2,7 +2,7 @@ import { Navigation } from "../components/Navigation";
 
 const AboutPage = () => (
 	<div>
-		About page
+		<h1>About page</h1>
 		<Navigation />
 	</div>
 );

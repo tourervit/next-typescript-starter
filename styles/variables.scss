@@ -1,0 +1,8 @@
+html {
+  --primary-color: rgb(183, 183, 183);
+  --secondary-color: #262b36;
+}
+html[data-theme="dark"] {
+  --primary-color: #282c34;
+  --secondary-color: #fff;
+}
